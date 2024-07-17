@@ -1,0 +1,11 @@
+source:
+  type: mysql
+  hostname: 127.0.0.1
+  port: 3306
+  username: app
+  password: appstore
+  tables:
+    - name: mall_member.member
+      columns: [id, user_name, code,telephone]
+    - name: mall_order.ord_express
+      columns: [id, express_name, code, type]
